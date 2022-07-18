@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int i=0,N;
+    int sum=0;
+    
+    //taking input from user
+    
+    cin>>N;
+    
+    //loop
+    
+    while(i<=N){
+    
+    //condition for checking whether number is even or not
+    
+        if(i%2==0){
+            sum=sum+i;
+        }
+        i++;
+    }
+    cout<<sum<<endl;
+}
