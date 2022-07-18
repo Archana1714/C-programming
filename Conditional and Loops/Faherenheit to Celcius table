@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+int S,E,W;
+    int fah;
+    
+    //taking input from user
+    
+    cin>>S>>E>>W;
+    
+    //loop
+    
+    while(S<=E){
+    
+    //formula applied
+    
+        fah=(5*(S-32)/9);
+        cout<<S<<" "<<fah<<endl;
+        S+=W;
+    }
+}
