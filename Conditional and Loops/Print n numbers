@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+int i=1,n;
+
+//taking input from user
+
+cin>>n;
+
+//loop
+
+while(i<=n){
+cout<<i<<endl;
+i++;
+}
+}
