@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+cout<<"enter number"<<endl;
+
+//taking input from user
+
+cin>>n;
+int d=2;
+bool divided = False;
+
+//loop
+
+while(d<n){
+
+//condition for not a prime number
+
+if(n%d==0){
+cout<<"Not Prime"<<endl;
+divided = True;
+}
+d=d+1;
+}
+
+//conditon for a prime number.
+
+if(!divided){
+cout<<"Prime"<<endl;
+}
+}
