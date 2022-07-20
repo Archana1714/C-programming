@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    
+    //taking input
+    
+    cin>>n;
+    int i=1;
+    int j;
+    
+    //loop1
+    
+    while(i<=n){
+        j=1;
+        
+        //loop2
+        
+        while(j<=n){
+            cout<<i;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}
