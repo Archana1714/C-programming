@@ -1,0 +1,55 @@
+/* OUTPUT----
+
+
+   1
+  121
+ 12321
+1234321
+             */
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+int n;
+
+//taking input
+
+    cin>>n;
+    int i=1;
+    
+    //loop1
+    
+    while(i<=n){
+         int spaces=1;
+         
+         //loop2
+         
+        while(spaces<=n-i){
+            cout<<" ";
+            spaces=spaces+1;
+        }
+       int j=1;
+       
+       //loop3
+       
+       while(j<=i){
+           cout<<j;
+           j=j+1;
+       }
+       j=i-1;
+       
+       //loop4
+       
+       while(j>=1){
+           cout<<j;
+           j=j-1;
+       }
+        cout<<endl;
+        i=i+1;
+    }
+      
+  
+}
+
