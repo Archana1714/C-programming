@@ -1,0 +1,50 @@
+/*  Print the following pattern for the given N number of rows.
+Pattern for N = 4
+
+    1
+   12
+  123
+ 1234
+ 
+The dots represent spaces.  */
+
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+int n;
+
+//taking input
+
+    cin>>n;
+    int i=1;
+    
+    //loop1
+    
+    while(i<=n){
+         int spaces=1;
+         
+         //loop2
+         
+        while(spaces<=n-i){
+            cout<<" ";
+            spaces=spaces+1;
+        }
+        int number=1;
+        
+        //loop3
+        
+        while(number<=i){
+            cout<<number;
+           number=number+1; 
+        }
+        cout<<endl;
+        i=i+1;
+    }
+      
+  
+}
+
+
