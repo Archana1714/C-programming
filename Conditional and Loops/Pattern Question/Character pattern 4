@@ -1,0 +1,40 @@
+/*  Print the following pattern for the given N number of rows.
+Pattern for N = 4
+A
+BC
+CDE
+DEFG  */
+
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int n;
+    
+    //taking input
+    
+    cin>>n;
+    int i=1;
+    int j;
+    
+    //loop1
+    
+    while(i<=n){
+        j=1;
+        
+        //loop2
+        
+        while(j<=i){
+            char startch='A'+i-1;
+            char k=startch+j-1;
+            cout<<k;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}
+
+
