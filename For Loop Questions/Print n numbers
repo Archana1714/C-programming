@@ -1,0 +1,28 @@
+/*     print N numbers:
+         1
+         2
+         3
+         4
+         5
+               
+                 */
+                 
+                 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int n;
+   cout<<"Enter the number: ";
+   
+   //taking input
+   
+   cin>>n;
+   
+   //loop
+   
+   for(int i=1;i<=n;i++){
+       cout<<i<<endl;
+   }
+}
